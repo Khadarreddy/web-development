@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(https://i.pinimg.com/1200x/12/db/a5/12dba5404e2a2ad25b15b4aace308411.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+}
+.header h5{
+    color: white;
+    margin: 20px;  
+    padding-top: 10px; 
+    font-size: 18px;
+   
+}
+.header h2{
+    color: orangered;
+    font-size: 40px;
+    padding-left: 70px;
+    margin-top: 10px;
+}
+.input{
+    padding-top: 30px;
+    margin-left: 100px;
+    
+}
+.input input{
+    font-size: 1.64em;
+    border: 1px solid orangered;
+    background-color: transparent;
+    padding-top: 3px;
+    outline: none;
+      color: white;
+    width: 170px;
+}
+.input input::placeholder{
+    color: rgb(239, 244, 248);
+    font-size: 20px;
+    text-align: start;
+    padding-left: 10px;
+}
+.button button{
+    border: 1px solid orangered;
+    background-color: orangered;
+    font-size: 15px;
+    margin-top: 30px;
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+.body{
+    display: flex;
+}
+.body-text{
+
+    color: white;
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.body-text span{
+    font-size: 60px;
+}
+.body-text h1{
+    font-size: 60px;
+}
+.body-text p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding-top: 10px;
+}
+.body-text button{
+    font-size: 1.4em;
+    border-radius: 10px;
+    border-style: none;
+    margin-top: 30px;
+    padding-left:50px;
+    padding-right: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background-color: orangered;
+    color: black;
+    cursor: pointer;
+}
+.body-text button:hover{
+    background-color: cornflowerblue;
+    color: black;
+}
+.login-form{
+    background-color: black;
+    color: #f0f8ff;
+    width: 300px;
+    height: 420px;
+    margin-top: 100px;
+    margin-left: 300px;
+    border-radius: 10px;
+}
+.comp1{
+    text-align: center;
+    margin-top: 35px;
+}
+.comp1 h3{
+    display: inline ;
+    background-color: white;
+    color:orangered;
+    padding: 10px;
+    padding-left: 70px;
+    padding-right: 70px;
+    border-radius: 15px;
+
+}
+.comp1 input[type="email"]{
+    width: 80%;
+      padding: 10px;
+      margin-top: 50px ;
+      border: none;
+      border-bottom: 2px solid orange;
+      background: transparent;
+      color: white;
+      font-size: 14px;
+      outline: none;
+}
+.comp1 input[type="password"] {
+      width: 80%;
+      padding: 10px;
+      margin-top: 30px;
+      border: none;
+      border-bottom: 2px solid orange;
+      background: transparent;
+      color: white;
+      font-size: 14px;
+      outline: none;
+    }
+.comp1 button{
+    background-color: orangered;
+    color: black;
+    border: none;
+    padding: 10px;
+    width: 80%;
+    border-radius: 10px;
+    font-size: 16px;
+    margin: 15px 0;
+    cursor: pointer;
+}
+.comp1 p{
+    font-size: 18px;
+    font-family:'Times New Roman', Times, serif;
+}
+.comp1 p a{
+    color: orangered;
+    text-decoration: none;
+}

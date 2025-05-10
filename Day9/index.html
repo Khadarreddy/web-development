@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css  ">
+    <script src="index.js"></script>
+</head>
+<body>
+    <div id="app">
+    
+    <div class="header">
+        <p style="color: #fff;">Mypage</p> 
+    </div>
+    <div id="data" >
+        <h1>WELCOME TO ABC</h1>
+        <b><label for="name">username :</label></b>
+        <input type="text"id="name" placeholder="Enter your name" ><br>
+        <b><label for="password" >password :</label></b>
+        <input type="password" id="password" placeholder="Enter pasword" ><br>
+        <button onclick="submit()">Login</button>
+        <button onclick="register()">Register</button>
+    </div>
+    <div id="login">
+    </div>
+    <div id="Register">
+        <label>name :</label>
+            <input type="text"id="Name" placeholder="Enter your name" ><br>
+            <div class="form-group">
+                <label>Gender:</label>
+                <div class="gender-options">
+                  <label><input type="radio" name="gender" value="male"> Male</label>
+                  <label><input type="radio" name="gender" value="female"> Female</label>
+                </div>
+              </div>
+             <label for="DOB" style="margin-top: 20px;">dob :</label>
+             <input type="date"style="margin-top: 20px;" id="date"><br>
+             <label for="subject"style="margin-top: 20px;">Subject :</label>
+             <select name="subject" id="subject"style="margin-top: 20px;">
+              <option value="maths">Maths</option>
+              <option value="science">Science</option>
+              <option value="english">English</option>
+             </select>
+             <div class="btn"><button style="margin-top: 80px;margin-left:300px;" onclick="reg()">Register</button></div>
+             
+    </div>
+</div>
+</body>
+</html>

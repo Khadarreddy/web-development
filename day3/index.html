@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="hello">Hello world
+    </p>
+    <button id="btn" onclick="clcik()">Click Me</button>
+    <div id="demo">Hello <b>World</b></div>
+    
+    <script>
+        function clcik(){
+            document.getElementById('hello').inner = "Hello, Khadar";
+
+        }
+        let el = document.getElementById('demo').style.fontStyle='italic';
+
+  // console.log(el.textContent);  // "Hello World" -->
+  //console.log(el.innerText);    // "Hello World"
+   //console.log(el.innerHTML);    // "Hello <b>World</b>" -->
+
+  //el.textContent = "New Text";      // Replaces all content, including tags
+  //el.innerHTML = "<i></i>";   // Adds HTML content
+  //el.innerText = "<b>Bold</b>";     // Adds text literally (no HTML rendering)
+        let a=setInterval(()=>{
+            console.log("hello");
+        },1000);
+        let b=setTimeout(()=>{
+            clearInterval(a);
+        },5000);
+
+
+
+        
+       
+    </script>
+</body>
+</html>

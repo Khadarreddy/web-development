@@ -1,0 +1,34 @@
+
+*{
+    margin:0;
+    padding:0;
+}
+
+
+.sidebar{
+    background-color: black;
+    width: 10%;
+    height: 100vh;
+}
+.logo img{
+    padding-top:5px ;
+    width: 100px;
+}
+.logo{
+    text-align: center;
+}
+.sidebar-elements ul{
+    color: white;
+    list-style: none;
+    padding: 0;
+}
+.sidebar-elements ul li{
+    margin: 10px;
+    cursor: pointer;
+    padding:10px;
+}
+.sidebar-elements ul li:hover{
+ background-color: rgb(26, 39, 178);
+ 
+}
+
