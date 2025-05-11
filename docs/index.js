@@ -1,12 +1,12 @@
    function Home() {
     window.scrollTo({
       top: 0,
-      behavior: 'smooth' // smooth scrolling
+      behavior: 'smooth'
     });
   }
   function Skills() {
     window.scrollTo({
-      top: 630, // pixels from the top
+      top: 630, 
       behavior: "smooth"
     });
   }

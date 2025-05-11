@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background:linear-gradient(90deg,cornflowerblue,rgb(231, 235, 238));
+    background:linear-gradient(90deg,cornflowerblue,rgb(231, 235, 238))no-repeat;
 
 }
 h2:hover{
