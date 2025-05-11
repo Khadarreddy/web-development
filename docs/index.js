@@ -6,20 +6,20 @@
   }
   function Skills() {
     window.scrollTo({
-      top: 630, 
+      top: 750, 
       behavior: "smooth"
     });
   }
   function Education(){
     window.scrollTo({
-      top: 1350, 
+      top: 1450, 
       behavior: "smooth"
     });
   }
 
   function Projects(){
     window.scrollTo({
-      top: 2030, 
+      top: 2150, 
       behavior: "smooth"
     });
   }
