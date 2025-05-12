@@ -9,11 +9,9 @@ body {
     background-size: cover;
     background-attachment: fixed;
 }
-
-h2:hover {
-    color: rgb(252, 250, 250);
+h2{
+    cursor: pointer;
 }
-
 #nav-bar {
     position: fixed;
     display: flex;
@@ -75,7 +73,11 @@ h2:hover {
     box-shadow: 2px 2px 5px rgb(239, 238, 238);
     text-align: justify;
 }
+.home-left:hover{
+    border: 2px solid;
+    border-color: #ece8ef;
 
+}
 .home-left p {
     font-size: 20px;
     font-family: Georgia, 'Times New Roman', Times, serif;

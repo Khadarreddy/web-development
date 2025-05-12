@@ -19,7 +19,7 @@
 
   function Projects(){
     window.scrollTo({
-      top: 2150, 
+      top: 2130, 
       behavior: "smooth"
     });
   }
